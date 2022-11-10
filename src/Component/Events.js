@@ -15,7 +15,7 @@ export default function Events({d}) {
         </div>
         
         <div className="card-action">
-          <p>Event data:{d.date}</p>
+          <p>Event data:-{d.date}</p>
         </div>
         <button type="button" onClick={()=>{dispatch(deleteEvent(d.id))}}>Delete</button>
       </div>
