@@ -11,3 +11,22 @@ export const hello = () => async dispatch => {
     }
     
   }
+export const addEvent=(event)=>async dispatch=>{
+  try {
+    const res=await axios.post("/events",event)
+    
+  } catch (error) {
+    console.log(error)
+  }
+}
+export const deleteEvent=(id)=>async dispatch=>{
+  try {
+    const res=await axios.delete(`/events/${id}`)
+    dispatch({
+      type:"DELETE",
+      payload:id
+    })
+  } catch (error) {
+    console.log(error)
+  }
+}

@@ -1,34 +1,10 @@
 {
-    "events": [
-        {
-            "Ename": "watching movie",
-            "date": "20/11/2022",
-            "id":1
-        },
-        {
-            "Ename": " going friend marriage",
-            "date": "25/11/2022",
-            "id":3
-        },
-        {
-            "Ename": "One day trip",
-            "date": "20/11/2022",
-            "id":2
-        },
-        {
-            "Ename": "Festival",
-            "date": "25/11/2022",
-            "id":4
-        }
-    ],
-    "name": [
-        {
-            "uname": "ramesh",
-            "password": "123"
-        },
-        {
-            "uname": "Bharat",
-            "password": "456"
-        }
-    ]
+  "events": [
+    {
+      "name": "marriage",
+      "desc": "i am going to marriage on that date",
+      "date": "2022-11-26",
+      "id": 1
+    }
+  ]
 }
