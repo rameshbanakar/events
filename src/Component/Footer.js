@@ -12,26 +12,26 @@ export default function Footer() {
             </p>
           </div>
           <div className="col l4 offset-l2 s12">
-            <h5 className="white-text">Links</h5>
+            <h5 className="white-text">Social Media Connect</h5>
             <ul>
               <li>
                 <a className="grey-text text-lighten-3" href="#!">
-                  Link 1
+                  Facebook
                 </a>
               </li>
               <li>
                 <a className="grey-text text-lighten-3" href="#!">
-                  Link 2
+                  Instagram
                 </a>
               </li>
               <li>
                 <a className="grey-text text-lighten-3" href="#!">
-                  Link 3
+                  YouTube
                 </a>
               </li>
               <li>
                 <a className="grey-text text-lighten-3" href="#!">
-                  Link 4
+                  LinkdIn
                 </a>
               </li>
             </ul>
